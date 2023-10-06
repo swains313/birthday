@@ -22,7 +22,7 @@ const Card = () => {
 
 
   return (
-    <div className="birthdayCard">
+    <div className="birthdayCard" onClick={playAgain}>
       <div className="cardFront">
         <h3 className="happy">HAPPY BIRTHDAY Love!</h3>
         <div className="balloons">
@@ -40,7 +40,7 @@ const Card = () => {
         </h6>
         <p className="name">Baby</p>
       </div>
-      <button onClick={playAgain}>🎵🎵</button>
+      {/* <button onClick={playAgain}>🎵</button> */}
       <audio ref={audioRef} autoPlay loop key={audioKey} style={{ display: 'none' }}>
         <source src={audio} type="audio/mpeg" />
         Your browser does not support the audio element.
