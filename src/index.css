@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: wheat;
+  /* background-color: wheat; */
 }
 
 code {
@@ -18,7 +18,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  /* background-image: url(./WhatsApp\ Image\ 2023-10-06\ at\ 21.55.12.jpeg); */
+  background-image: url(./pexels-ave-calvar-martinez-3157972.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -44,8 +44,8 @@ body {
 
 .birthdayCard {
   position: relative;
-  width: 350px;
-  height: 450px;
+  width: 250px;
+  height: 350px;
   cursor: pointer;
   transition: transform 1s, opacity 1s;
   transform: perspective(2500px);
@@ -70,14 +70,17 @@ body {
 .cardFront {
   position: relative;
   background-color: #fff;
-  width: 250px;
-  height: 350px;
+  width: 290px;
+  height: 390px;
   overflow: hidden;
   transform-origin: left;
   box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2),
     30px 0 50px rgba(0, 0, 0, 0.4);
   transition: 0.6s;
 }
+
+
+
 
 .happy {
   font-family: Tahoma, sans-serif;
@@ -180,19 +183,23 @@ body {
 
 } */
 
+
+
+
 .cardInside {
   position: absolute;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust the alpha value (0.8 in this example) to control opacity */
   width: 250px;
   height: 350px;
   z-index: -1;
   left: 0;
   top: 0;
   box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2);
-  background-image: url(./WhatsApp\ Image\ 2023-10-06\ at\ 21.55.12.jpeg);
-  background-size: cover; /* Ensure the image covers the entire div */
-  background-position: center center; /* Center the image horizontally and vertically */
+  background-image: url(./WhatsApp\ Image\ 2023-10-06\ at\ 22.21.01.jpeg);
+  background-size: cover;
+  background-position: center center;
 }
+
 
 
 h6 {
