@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: wheat;
 }
 
 code {
@@ -17,7 +18,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url(./WhatsApp\ Image\ 2023-10-06\ at\ 21.55.12.jpeg);
+  /* background-image: url(./WhatsApp\ Image\ 2023-10-06\ at\ 21.55.12.jpeg); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -166,6 +167,19 @@ body {
   border-bottom: 10px solid #118ab2;
 }
 
+/* .cardInside {
+  position: absolute;
+  background-color: #fff;
+  width: 250px;
+  height: 350px;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2);
+  background-image: url(./WhatsApp\ Image\ 2023-10-06\ at\ 21.55.12.jpeg);
+
+} */
+
 .cardInside {
   position: absolute;
   background-color: #fff;
@@ -175,19 +189,23 @@ body {
   left: 0;
   top: 0;
   box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2);
+  background-image: url(./WhatsApp\ Image\ 2023-10-06\ at\ 21.55.12.jpeg);
+  background-size: cover; /* Ensure the image covers the entire div */
+  background-position: center center; /* Center the image horizontally and vertically */
 }
 
-p {
-  font-family: "Brush Script MT", cursive;
+
+h6 {
+  font-size: medium;
   margin: 40px;
-  color: #333;
+  color: black;
 }
 
 .name {
   position: absolute;
   left: 150px;
   top: 200px;
-  color: #333;
+  color: black;
 }
 
 .back {
