@@ -35,9 +35,9 @@ const Card = () => {
       <div className="cardInside">
         <h3 className="back">HAPPY BIRTHDAY 🅱🅰🅱🆈!</h3>
         <p>Dear Love,</p>
-        <h6>
+        <h4>
           Happy birthday!! I hope your day is filled with lots of love and laughter! May all of your birthday wishes come true.
-        </h6>
+        </h4>
         <p className="name">Baby</p>
       </div>
       {/* <button onClick={playAgain}>🎵</button> */}

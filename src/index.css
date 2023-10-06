@@ -188,7 +188,7 @@ body {
 
 .cardInside {
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.8); /* Adjust the alpha value (0.8 in this example) to control opacity */
+  background-color: rgba(255, 255, 255, 0.8);
   width: 250px;
   height: 350px;
   z-index: -1;
@@ -202,16 +202,17 @@ body {
 
 
 
-h6 {
-  font-size: medium;
+p {
+  font-size: smaller;
   margin: 40px;
-  color: black;
+  color: rgb(10, 20, 40);  
+  
 }
 
 .name {
   position: absolute;
   left: 150px;
-  top: 200px;
+  top: 240px;
   color: black;
 }
 
