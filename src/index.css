@@ -44,8 +44,8 @@ body {
 
 .birthdayCard {
   position: relative;
-  width: 250px;
-  height: 350px;
+  width: 350px;
+  height: 450px;
   cursor: pointer;
   transition: transform 1s, opacity 1s;
   transform: perspective(2500px);
